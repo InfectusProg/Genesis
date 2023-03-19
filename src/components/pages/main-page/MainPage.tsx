@@ -16,7 +16,6 @@ const MainPage = () => {
     dispatch(fetchCourses());
   }, [dispatch]);
   const courses = useAppSelector(selectDetails);
-  console.log(courses);
   const pagesVisited = pageNumber * 10;
   const pageCount = Math.ceil(courses?.length / 10);
   if (!courses) {
