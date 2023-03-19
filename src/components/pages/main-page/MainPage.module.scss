@@ -1,0 +1,46 @@
+.mainContainer{
+    width: 100%;
+    padding-top:100px;
+}
+.coursesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px 20px 50px 20px;
+}
+
+.card {
+    display: flex;
+    text-decoration: none;
+
+    &:visited{
+        color: black;
+    }
+}
+
+.paginate{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.mainHeader{
+    width:100%;
+    height:10vh;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 40px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1;
+}
